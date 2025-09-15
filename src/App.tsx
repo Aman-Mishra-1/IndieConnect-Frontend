@@ -10,6 +10,9 @@ const FreelancerRoutes = lazy(() => import("@/routes/FreelancerRoutes"));
 const ClientRoutes = lazy(() => import("@/routes/ClientRoutes"));
 const AdminRoutes = lazy(() => import("@/routes/AdminRoutes"));
 
+
+
+
 const App = () => {
   useEffect(() => {
     console.log("socket");
