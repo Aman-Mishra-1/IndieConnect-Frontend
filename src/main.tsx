@@ -6,7 +6,10 @@ import { Provider } from "react-redux";
 import store, { persistor } from "./redux/store/store.ts";
 import { PersistGate } from "redux-persist/es/integration/react";
 import { GoogleOAuthProvider } from "@react-oauth/google";
+import { BrowserRouter } from "react-router-dom";
+
 const googleClient = import.meta.env.VITE_GOOGLE_CLIENT_ID;
+
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
