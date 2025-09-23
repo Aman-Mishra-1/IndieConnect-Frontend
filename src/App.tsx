@@ -34,7 +34,7 @@ const App = () => {
   return (
     <ThemeProvider>
       <Toaster position="top-right" reverseOrder={false} />
-      <Router>
+      
         <Scroll />
         <Suspense fallback={<Spinner />}>
           <Routes>
@@ -44,7 +44,7 @@ const App = () => {
             <Route path="/admin/*" element={<AdminRoutes />} />
           </Routes>
         </Suspense>
-      </Router>
+    
     </ThemeProvider>
   );
 };
