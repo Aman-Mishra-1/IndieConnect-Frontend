@@ -13,7 +13,9 @@ createRoot(document.getElementById("root")!).render(
     <GoogleOAuthProvider clientId={googleClient}>
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
-          <App />
+          <BrowserRouter basename="/">
+            <App />
+          </BrowserRouter>
         </PersistGate>
       </Provider>
     </GoogleOAuthProvider>
