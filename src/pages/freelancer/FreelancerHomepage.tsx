@@ -61,7 +61,7 @@ const FreelancerHomepage = () => {
             Fire up your freelance career
           </h2>
           <p className="mt-4 text-base text-gray-700 dark:text-gray-300">
-            Focus on your passion while Skillora connects you with top clients.
+            Focus on your passion while IndieConnect connects you with top clients.
             Join our global network of skilled freelancers and work in a secure,
             hassle-free environment.
           </p>
@@ -85,7 +85,7 @@ const FreelancerHomepage = () => {
               </h3>
               <p className="text-gray-700 dark:text-gray-300 text-md">
                 Showcase your expertise. Get verified and become a part of
-                Skillora’s exclusive freelance community today.
+                IndieConnect’s exclusive freelance community today.
               </p>
             </div>
             <div>
@@ -102,7 +102,7 @@ const FreelancerHomepage = () => {
                 EARN IT
               </h3>
               <p className="text-gray-700 dark:text-gray-300 text-md">
-                Boost your income with Skillora! Work with premium clients and
+                Boost your income with IndieConnect! Work with premium clients and
                 get paid securely for your skills and dedication.
               </p>
             </div>
@@ -130,10 +130,10 @@ const FreelancerHomepage = () => {
           <Accordion type="single" collapsible>
             <AccordionItem value="item-1">
               <AccordionTrigger>
-                How does Skillora ensure secure payments?
+                How does IndieConnect ensure secure payments?
               </AccordionTrigger>
               <AccordionContent>
-                Skillora uses a secure escrow system to hold payments until
+                IndieConnect uses a secure escrow system to hold payments until
                 project milestones are met, ensuring safety for both freelancers
                 and clients.
               </AccordionContent>
@@ -141,7 +141,7 @@ const FreelancerHomepage = () => {
 
             <AccordionItem value="item-2">
               <AccordionTrigger>
-                How can I find the right projects on Skillora?
+                How can I find the right projects on IndieConnect?
               </AccordionTrigger>
               <AccordionContent>
                 You can browse job listings, participate in contests, or get
@@ -151,10 +151,10 @@ const FreelancerHomepage = () => {
 
             <AccordionItem value="item-3">
               <AccordionTrigger>
-                What support does Skillora provide for freelancers?
+                What support does IndieConnect provide for freelancers?
               </AccordionTrigger>
               <AccordionContent>
-                Skillora offers dispute resolution, project management tools,
+                IndieConnect offers dispute resolution, project management tools,
                 and community support to help freelancers grow their careers.
               </AccordionContent>
             </AccordionItem>
